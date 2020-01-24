@@ -11,6 +11,8 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
+   
+
   <body>
     <div id="wrapper">
        <%= render 'partial/navbar' if current_user %>
@@ -22,7 +24,7 @@
          <div class="alert alert-danger"><%= flash[:alert] %></div>
        <% end %>
        
-       <div class="container">
+       <div class="container_main">
         <%= yield %>
       </div>
 
