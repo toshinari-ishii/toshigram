@@ -1,24 +1,58 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### DB設計
 
-Things you may want to cover:
+Column|Type|Options
 
-* Ruby version
 
-* System dependencies
+## usersテーブル
+email |string |add_index : email, unique : true
+encryted_password |string |add_index : email, unique : true
+name |string |null: false
+### Association
+- has_many :posts, dependent: :destroy
+- has_many :likes
+- has_many :comments
 
-* Configuration
 
-* Database creation
 
-* Database initialization
 
-* How to run the test suite
+## postテーブル
+caption |string
+user_id |references |foreign_key: true, null: false
+### Association
+- belongs_to :user
+- has_many :photos, dependent: :destroy
+- has_many :likes, dependent: :destroy
+- has_many :comments, dependent: :destroy
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
 
-* ...
+
+## photosテーブル
+image | string |null: false
+post_id |references |foreign_key: true, null: false
+
+### Association
+- belongs_to :post
+
+
+
+
+## likesテーブル
+post_id |references |foreign_key: true, null: false
+user_id |references |foreign_key: true, null: false
+### Association
+- belongs_to :user
+- belongs_to :post
+
+
+
+## commentsテーブル
+comment |text
+post_id |references |foreign_key: true, null: false
+user_id |references |foreign_key: true, null: false
+
+### Association
+- belongs_to :user
+- belongs_to :post
+
