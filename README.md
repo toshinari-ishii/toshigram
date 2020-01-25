@@ -24,6 +24,7 @@ user_id |references |foreign_key: true, null: false
 - has_many :photos, dependent: :destroy
 - has_many :likes, dependent: :destroy
 - has_many :comments, dependent: :destroy
+<!-- - has_many :url, dependent: :destroy -->
 
 
 
@@ -35,6 +36,13 @@ post_id |references |foreign_key: true, null: false
 ### Association
 - belongs_to :post
 
+
+<!-- ## urlテーブル
+url | string |null: false
+post_id |references |foreign_key: true, null: false
+
+### Association
+- belongs_to :post -->
 
 
 

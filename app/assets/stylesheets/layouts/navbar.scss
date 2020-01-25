@@ -10,11 +10,12 @@
   }
   &__mainLogo {
     background-repeat: no-repeat;
-    padding-left: 170px;
-    margin-left: 150px;
+    padding-left: 100px;
+    margin-left: 200px;
+    margin-bottom: 40px;
   }
   &-nav {
-    padding-right: 250px;
+    padding-right: 150px;
     & > li {
       margin-left: 20px;
       &:first-child {
@@ -34,8 +35,7 @@
 }
 
 .container_main{
-  background-image: url(https://dotup.org/uploda/dotup.org2046360.gif_ELB4TxIXhfYVDvIFxGzx/dotup.org2046360.gif);
-
+  // background-image: url(https://dotup.org/uploda/dotup.org2046360.gif_ELB4TxIXhfYVDvIFxGzx/dotup.org2046360.gif);
 }
 
 
