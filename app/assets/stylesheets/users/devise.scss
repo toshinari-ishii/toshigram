@@ -20,12 +20,17 @@
 }
 
 .logo-img {
-  background-image: image-url("logo.png");
+  // background-image: url("https://dotup.org/uploda/dotup.org2048759.jpg_9Vr6Tp0dQ6XHVwIacvi3/dotup.org2048759.jpg");
   background-repeat: no-repeat;
   height: 56px;
   width: 180px;
   background-size: 160px;
   background-size: 180px!important;
+}
+
+.text-center {
+  // background-image: url("https://dotup.org/uploda/dotup.org2048759.jpg_9Vr6Tp0dQ6XHVwIacvi3/dotup.org2048759.jpg");
+  // margin-bottom: 50px;
 }
 
 .form-control {
