@@ -14,9 +14,10 @@
 }
 
 .form-wrap{
-  max-width: 400px;
-  width: 100%;
+  // max-width: 400px;
+  // width: 100%;
   margin: 50px auto;
+  
 }
 
 .logo-img {
@@ -51,6 +52,7 @@
 
 footer {
   margin-top: auto;
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 768px) {
