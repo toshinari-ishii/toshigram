@@ -79,3 +79,4 @@ gem 'sqlite3', '~>1.3.6', group: :development
 
 gem 'pg', group: :production
 
+gem "aws-sdk-s3", require: false

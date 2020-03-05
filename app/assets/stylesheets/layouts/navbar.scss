@@ -36,6 +36,7 @@
   .btn-primary{
     margin-bottom: 20px;
   }
+  
 }
 body {
   background-color: #e74c3c;
@@ -45,20 +46,20 @@ body {
 .container_main{
   // background-color: #A7F1FF;
   @-webkit-keyframes bg-color {
-    0% { background-color: #e74c3c; }
-    20% { background-color: #f1c40f; }
-    40% { background-color: #1abc9c; }
-    60% { background-color: #3498db; }
-    80% { background-color: #9b59b6; }
-    100% { background-color: #e74c3c; }
+    0% { background-color: #F0F8FF; }
+    20% { background-color: #77FFFF; }
+    40% { background-color: #CEF9DC; }
+    60% { background-color: #7FFFD4; }
+    80% { background-color: #E0FFFF; }
+    100% { background-color: #CCFFFF; }
   }
   @keyframes bg-color {
-    0% { background-color: #e74c3c; }
-    20% { background-color: #f1c40f; }
-    40% { background-color: #1abc9c; }
-    60% { background-color: #3498db; }
-    80% { background-color: #9b59b6; }
-    100% { background-color: #e74c3c; }
+    0% { background-color:#F0F8FF; }
+    20% { background-color: #77FFFF; }
+    40% { background-color:  #7FFFD4; }
+    60% { background-color: #99FFFF; }
+    80% { background-color: #BBFFFF; }
+    100% { background-color: #CCFFFF; }
   }
 }
 
