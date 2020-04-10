@@ -1,7 +1,9 @@
 .navbar {
-  background-color: #fff;
+  background-image:url(https://cdn.pixabay.com/photo/2015/08/19/05/23/banner-895571_960_720.jpg);
+  opacity: 0.8;
+  width: 100%;
   border-bottom: 1px solid rgba(0, 0, 0, .0975);
-  height: 150px;
+  height: 180px;
   justify-content: center;
   &__brand {
     height: 50px;
@@ -22,19 +24,25 @@
         margin-left: 0;
       }
       .commonNavIcon {
-        height: 24px;
-        width: 24px;
-        background-size: 22px !important;
+        height: 50px;
+        width: 50px;
+        background-size: cover;
+
         background-repeat: no-repeat;
       }
       .profile-icon {
-        background-image: image-url("parts3.png");
-        margin-bottom: 20px;
+        background-image: image-url("manicon.png");
+        margin: auto;
+        // margin-bottom: 20px;
+        opacity: 0.9;
+
       }
     }
   }
   .btn-primary{
-    margin-bottom: 20px;
+    background-color:rgb(75, 74, 74);
+    border-color:rgb(75, 74, 74) ;
+    opacity: 0.9;
   }
   
 }
@@ -44,23 +52,15 @@ body {
   -webkit-animation: bg-color 10s infinite;
 }
 .container_main{
-  // background-color: #A7F1FF;
-  @-webkit-keyframes bg-color {
-    0% { background-color: #F0F8FF; }
-    20% { background-color: #77FFFF; }
-    40% { background-color: #CEF9DC; }
-    60% { background-color: #7FFFD4; }
-    80% { background-color: #E0FFFF; }
-    100% { background-color: #CCFFFF; }
-  }
-  @keyframes bg-color {
-    0% { background-color:#F0F8FF; }
-    20% { background-color: #77FFFF; }
-    40% { background-color:  #7FFFD4; }
-    60% { background-color: #99FFFF; }
-    80% { background-color: #BBFFFF; }
-    100% { background-color: #CCFFFF; }
-  }
+  background-image: url(https://turkey.turkey888.com/wp-content/uploads/2018/01/joanna-kosinska-290213-e1515642154508.jpg);
+  background-size: contain;
+
 }
 
-
+.navbar__mainLogo{
+  margin: auto;
+  padding-top: 20px;
+  size: 50px;
+  opacity: 0.8;
+  
+}
