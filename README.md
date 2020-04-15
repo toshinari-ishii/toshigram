@@ -1,3 +1,23 @@
+# PhotoRoom
+
+概要
+写真やイラストをアップするアプリ
+主にアーティストや楽曲のジャケットをアップ
+
+## Function(機能)
+ユーザー登録、投稿、削除、いいね、コメント、詳細ページ
+
+## Function Introduction(機能紹介)
+
+投稿機能
+![投稿機能](app/assets/images/addphoto.gif)
+
+いいね&コメント機能
+![いいね&コメント機能](app/assets/images/comment.gif)
+
+詳細ページ&削除機能
+![詳細ページ&削除機能](app/assets/images/delete.gif)
+
 
 ### DB設計
 
