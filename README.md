@@ -14,8 +14,6 @@ name |string |null: false
 - has_many :comments
 
 
-
-
 ## postテーブル
 caption |string
 user_id |references |foreign_key: true, null: false
