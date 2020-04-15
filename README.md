@@ -1,22 +1,34 @@
 # PhotoRoom
 
 概要
-写真やイラストをアップするアプリ
-主にアーティストや楽曲のジャケットをアップ
+写真やイラストなどを投稿するアプリ<br>
+主にアーティストの作品を投稿していく
+
+## Used Languege(使用言語)
+Haml.Css,Ruby,Javascript,jQuery
 
 ## Function(機能)
 ユーザー登録、投稿、削除、いいね、コメント、詳細ページ
 
+## これから追加させたい機能
+投稿機能にURLを添付出来るようにしてアーティストのHPなどをリンクさせる<br>
+マイページにもSNSなどのリンクを表示させる
+
 ## Function Introduction(機能紹介)
 
-投稿機能
+### 投稿機能
 ![投稿機能](app/assets/images/addphoto.gif)
 
-いいね&コメント機能
+### いいね&コメント機能
 ![いいね&コメント機能](app/assets/images/comment.gif)
 
-詳細ページ&削除機能
+### 詳細ページ&削除機能
 ![詳細ページ&削除機能](app/assets/images/delete.gif)
+
+
+## FlameWork
+### Ruby On Rails
+### BootStrap
 
 
 ### DB設計
